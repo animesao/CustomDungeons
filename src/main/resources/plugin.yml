@@ -1,0 +1,9 @@
+main: com.aniemsao.customdungeons.CustomDungeons
+name: CustomDungeons
+version: 1.0
+author: aniemsao
+api-version: 1.16
+commands:
+  cdungeon:
+    description: Main command for CustomDungeons
+    permission: cdungeon.admin

@@ -1,0 +1,29 @@
+[08:45:04 INFO]: Igor2023Pro issued server command: /cdungeon random
+[08:45:08 ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'cdungeon' in plugin CustomDungeons v1.0
+        at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[patched_1.16.5.jar:git-Paper-794]
+        at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159) ~[patched_1.16.5.jar:git-Paper-794]
+        at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:826) ~[patched_1.16.5.jar:git-Paper-794]
+        at net.minecraft.server.v1_16_R3.PlayerConnection.handleCommand(PlayerConnection.java:2185) ~[patched_1.16.5.jar:git-Paper-794]
+        at net.minecraft.server.v1_16_R3.PlayerConnection.c(PlayerConnection.java:2000) ~[patched_1.16.5.jar:git-Paper-794]
+        at net.minecraft.server.v1_16_R3.PlayerConnection.a(PlayerConnection.java:1953) ~[patched_1.16.5.jar:git-Paper-794]
+        at net.minecraft.server.v1_16_R3.PacketPlayInChat.a(PacketPlayInChat.java:49) ~[patched_1.16.5.jar:git-Paper-794]
+        at net.minecraft.server.v1_16_R3.PacketPlayInChat.a(PacketPlayInChat.java:7) ~[patched_1.16.5.jar:git-Paper-794]
+        at net.minecraft.server.v1_16_R3.PlayerConnectionUtils.lambda$ensureMainThread$1(PlayerConnectionUtils.java:35) ~[patched_1.16.5.jar:git-Paper-794]
+        at net.minecraft.server.v1_16_R3.TickTask.run(SourceFile:18) ~[patched_1.16.5.jar:git-Paper-794]
+        at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[patched_1.16.5.jar:git-Paper-794]
+        at net.minecraft.server.v1_16_R3.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[patched_1.16.5.jar:git-Paper-794]
+        at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[patched_1.16.5.jar:git-Paper-794]
+        at net.minecraft.server.v1_16_R3.MinecraftServer.bb(MinecraftServer.java:1271) ~[patched_1.16.5.jar:git-Paper-794]
+        at net.minecraft.server.v1_16_R3.MinecraftServer.executeNext(MinecraftServer.java:1264) ~[patched_1.16.5.jar:git-Paper-794]
+        at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119) ~[patched_1.16.5.jar:git-Paper-794]
+        at net.minecraft.server.v1_16_R3.MinecraftServer.sleepForTick(MinecraftServer.java:1225) ~[patched_1.16.5.jar:git-Paper-794]
+        at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1139) ~[patched_1.16.5.jar:git-Paper-794]
+        at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291) ~[patched_1.16.5.jar:git-Paper-794]
+        at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.IllegalArgumentException: No enum constant org.bukkit.Material.NETHER_SLAB
+        at java.lang.Enum.valueOf(Enum.java:273) ~[?:?]
+        at org.bukkit.Material.valueOf(Material.java:90) ~[patched_1.16.5.jar:git-Paper-794]
+        at com.aniemsao.customdungeons.DungeonCommand.onCommand(DungeonCommand.java:131) ~[?:?]
+        at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[patched_1.16.5.jar:git-Paper-794]
+        ... 19 more

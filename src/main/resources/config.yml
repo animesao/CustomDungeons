@@ -1,0 +1,37 @@
+# CustomDungeons Configuration
+# Define custom mobs to spawn in dungeons
+mobs:
+  zombie_knight:
+    type: ZOMBIE
+    name: "&cZombie Knight"
+    hp: 40.0
+    armor:
+      helmet: IRON_HELMET
+      chestplate: IRON_CHESTPLATE
+      leggings: IRON_LEGGINGS
+      boots: IRON_BOOTS
+    weapon: IRON_SWORD
+  skeleton_archer:
+    type: SKELETON
+    name: "&bElite Archer"
+    hp: 30.0
+    weapon: BOW
+  creeper_beast:
+    type: CREEPER
+    name: "&aDungeon Creeper"
+    hp: 20.0
+
+# Multiple loot profiles
+# Use these names in your dungeon generation logic
+loot-profiles:
+  - default_loot
+  - rare_loot
+  - epic_loot
+  - dungeon_treasure
+
+worlds:
+  - world
+  - world_nether
+  - world_the_end
+
+generation-chance: 0.01

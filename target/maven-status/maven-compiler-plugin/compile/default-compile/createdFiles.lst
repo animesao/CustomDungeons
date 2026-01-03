@@ -1,0 +1,16 @@
+com/aniemsao/customdungeons/DungeonCommand$1.class
+com/aniemsao/customdungeons/manager/DatabaseManager.class
+com/aniemsao/customdungeons/utils/ColorUtils.class
+com/aniemsao/customdungeons/gui/LootGUI.class
+com/aniemsao/customdungeons/utils/DefaultAssets.class
+com/aniemsao/customdungeons/manager/DungeonManager$2.class
+Main.class
+com/aniemsao/customdungeons/GUIListener.class
+com/aniemsao/customdungeons/manager/StructureConfig.class
+com/aniemsao/customdungeons/manager/DungeonManager$1.class
+com/aniemsao/customdungeons/manager/LootManager.class
+com/aniemsao/customdungeons/DungeonCommand.class
+com/aniemsao/customdungeons/manager/DungeonManager.class
+com/aniemsao/customdungeons/DungeonListener.class
+com/aniemsao/customdungeons/utils/ItemUtils.class
+com/aniemsao/customdungeons/CustomDungeons.class

@@ -128,7 +128,15 @@ public class DungeonCommand implements CommandExecutor, TabCompleter {
                                 for (int dy = 0; dy <= height + 2; dy++) {
                                     s.addBlock(dx, dy, dz, decorMat);
                                     // Add decorative caps to pillars
-                                    if (dy == height + 2) s.addBlock(dx, dy + 1, dz, org.bukkit.Material.valueOf(wallMat.name().replace("BRICKS", "SLAB")));
+                                    if (dy == height + 2) {
+                                        String slabName = wallMat.name().replace("BRICKS", "SLAB");
+                                        if (slabName.equals("NETHER_SLAB")) slabName = "NETHER_BRICK_SLAB";
+                                        try {
+                                            s.addBlock(dx, dy + 1, dz, org.bukkit.Material.valueOf(slabName));
+                                        } catch (IllegalArgumentException e) {
+                                            s.addBlock(dx, dy + 1, dz, wallMat);
+                                        }
+                                    }
                                 }
                             }
                         }

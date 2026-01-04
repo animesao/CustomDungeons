@@ -35,5 +35,6 @@
 *   **Зависимости:** WorldEdit или FastAsyncWorldEdit (для работы со схематиками).
 
 ---
-Автор: **aniemsao**
-GitHub: **github.com/animesao/CustomDungeons**
+* Автор: **aniemsao**
+* GitHub: **github.com/animesao/CustomDungeons**
+* [wiki](https://alfheimguide.ct.ws/wiki_article?slug=customdungeons)

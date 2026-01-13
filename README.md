@@ -37,4 +37,3 @@
 ---
 * Автор: **aniemsao**
 * GitHub: **github.com/animesao/CustomDungeons**
-* [wiki](https://alfheimguide.ct.ws/wiki_article?slug=customdungeons)
